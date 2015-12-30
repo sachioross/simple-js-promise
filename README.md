@@ -6,12 +6,12 @@ With the help of this wonderful article by Jack Franklin: [Embracing Promises in
 
 This example has three ways to be run: 
 
-- node index.js
+- node simple.js
 	- Runs the entire process with no errors
-- node index.js false
+- node simple.js false
 	- This will cause step 2 to call the reject method
-- node index.js true "Any strings that does not contain the word 'good'"
-	- Example: node index.js true "What spoon?"
+- node simple.js true "Any strings that does not contain the word 'good'"
+	- Example: node simple.js true "What spoon?"
 	- This will cause Step 3 to call a reject method
 
 I'd like to point out that Jack Franklin highly suggests reading the article by Jake Archibald: [JavaScript Promises] (http://www.html5rocks.com/en/tutorials/es6/promises/). I can't explain why, but when I first took a look at that article (before finding Jack's), it just seemed to overwhelm a bit. Reading it now I don't really understand why things didn't click then, but it really is a good read. 
